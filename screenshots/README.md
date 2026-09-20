@@ -1,6 +1,6 @@
 # Submission Evidence
 
-No LeetCode submissions were performed in this workspace, so no Accepted screenshots are claimed or included. The eight solutions were verified locally with two tests each. After interactive LeetCode submission, save one screenshot per accepted problem in this folder and update `PROGRESS.md` statuses from `LeetCode submission pending` to `Accepted`.
+Two Sum has been submitted in C and accepted. Its screenshot is saved as [01-two-sum-accepted.png](01-two-sum-accepted.png). The other seven solutions remain locally verified but have not yet been submitted.
 
 Expected evidence files:
 
