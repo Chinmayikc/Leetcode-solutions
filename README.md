@@ -42,9 +42,11 @@ Solutions: [Reverse Linked List](linked-lists/reverse_linked_list.c) and [Merge 
 Each C file contains two assertions: one typical case and one edge case. Compile and run all solutions from the repository root with:
 
 ```powershell
-$build = Join-Path $PWD '.build'; New-Item -ItemType Directory -Force $build | Out-Null
+$build = Join-Path $env:TEMP 'leetcode-c-build'; New-Item -ItemType Directory -Force $build | Out-Null
 Get-ChildItem -Recurse -Filter *.c | ForEach-Object { $exe = Join-Path $build $_.BaseName; gcc -std=c11 -Wall -Wextra -pedantic $_.FullName -o $exe; & $exe }
 ```
+
+If Windows Application Control blocks a generated executable, the C source has still compiled successfully. Run the command in WSL, or ask the device administrator to allow the GCC output directory/compiler in Windows Application Control; this is an operating-system execution policy, not a solution-code error.
 
 ## GitHub
 
