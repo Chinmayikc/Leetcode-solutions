@@ -2,15 +2,15 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/two-sum/
-- Solution: [two_sum.py](two_sum.py)
+- Solution: [two_sum.c](two_sum.c)
 
 ## Approach
 
-Scan the list once while storing each value and its index in a hash map. For every value, check whether its complement has already been seen.
+Check every pair of values and return the indices of the first pair whose sum equals the target.
 
 ## Complexity
 
-- Time: O(n)
+- Time: O(n^2)
 - Space: O(n)
 
 ## Notes and Edge Cases

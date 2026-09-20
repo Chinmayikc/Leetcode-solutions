@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/climbing-stairs/
-- Solution: [climbing_stairs.py](climbing_stairs.py)
+- Solution: [climbing_stairs.c](climbing_stairs.c)
 
 ## Approach
 

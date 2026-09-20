@@ -2,7 +2,7 @@
 
 - Difficulty: Medium
 - LeetCode: https://leetcode.com/problems/min-stack/
-- Solution: [min_stack.py](min_stack.py)
+- Solution: [min_stack.c](min_stack.c)
 
 ## Approach
 

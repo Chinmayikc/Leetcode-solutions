@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/valid-anagram/
-- Solution: [valid_anagram.py](valid_anagram.py)
+- Solution: [valid_anagram.c](valid_anagram.c)
 
 ## Approach
 

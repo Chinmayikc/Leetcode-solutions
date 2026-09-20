@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/valid-parentheses/
-- Solution: [valid_parentheses.py](valid_parentheses.py)
+- Solution: [valid_parentheses.c](valid_parentheses.c)
 
 ## Approach
 

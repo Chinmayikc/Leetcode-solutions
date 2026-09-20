@@ -23,30 +23,31 @@
 
 ## Arrays and Strings
 
-Solutions: [Two Sum](arrays-strings/two_sum.py) and [Valid Anagram](arrays-strings/valid_anagram.py).
+Solutions: [Two Sum](arrays-strings/two_sum.c) and [Valid Anagram](arrays-strings/valid_anagram.c).
 
 ## Basic Algorithms
 
-Solutions: [Binary Search](basic-algorithms/binary_search.py) and [Climbing Stairs](basic-algorithms/climbing_stairs.py).
+Solutions: [Binary Search](basic-algorithms/binary_search.c) and [Climbing Stairs](basic-algorithms/climbing_stairs.c).
 
 ## Stacks
 
-Solutions: [Valid Parentheses](stacks/valid_parentheses.py) and [Min Stack](stacks/min_stack.py).
+Solutions: [Valid Parentheses](stacks/valid_parentheses.c) and [Min Stack](stacks/min_stack.c).
 
 ## Linked Lists
 
-Solutions: [Reverse Linked List](linked-lists/reverse_linked_list.py) and [Merge Two Sorted Lists](linked-lists/merge_two_sorted_lists.py).
+Solutions: [Reverse Linked List](linked-lists/reverse_linked_list.c) and [Merge Two Sorted Lists](linked-lists/merge_two_sorted_lists.c).
 
 ## Local Verification
 
-Each Python file contains two `unittest` cases: one typical case and one edge case. Run all solutions from the repository root with:
+Each C file contains two assertions: one typical case and one edge case. Compile and run all solutions from the repository root with:
 
 ```powershell
-Get-ChildItem -Recurse -Filter *.py | ForEach-Object { python $_.FullName }
+$build = Join-Path $PWD '.build'; New-Item -ItemType Directory -Force $build | Out-Null
+Get-ChildItem -Recurse -Filter *.c | ForEach-Object { $exe = Join-Path $build $_.BaseName; gcc -std=c11 -Wall -Wextra -pedantic $_.FullName -o $exe; & $exe }
 ```
 
 ## GitHub
 
 Repository name: `leetcode-solutions`
 
-The GitHub URL will be added after the remote repository is created and pushed.
+Repository URL: https://github.com/Chinmayikc/Leetcode-solutions

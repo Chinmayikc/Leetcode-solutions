@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/reverse-linked-list/
-- Solution: [reverse_linked_list.py](reverse_linked_list.py)
+- Solution: [reverse_linked_list.c](reverse_linked_list.c)
 
 ## Approach
 

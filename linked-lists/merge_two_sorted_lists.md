@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/merge-two-sorted-lists/
-- Solution: [merge_two_sorted_lists.py](merge_two_sorted_lists.py)
+- Solution: [merge_two_sorted_lists.c](merge_two_sorted_lists.c)
 
 ## Approach
 

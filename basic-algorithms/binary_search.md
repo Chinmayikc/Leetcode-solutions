@@ -2,7 +2,7 @@
 
 - Difficulty: Easy
 - LeetCode: https://leetcode.com/problems/binary-search/
-- Solution: [binary_search.py](binary_search.py)
+- Solution: [binary_search.c](binary_search.c)
 
 ## Approach
 
