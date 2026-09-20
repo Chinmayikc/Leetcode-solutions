@@ -1,8 +1,8 @@
 # Valid Parentheses
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/valid-parentheses/
-- **Solution:** [valid_parentheses.py](valid_parentheses.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/valid-parentheses/
+- Solution: [valid_parentheses.py](valid_parentheses.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Push opening brackets onto a stack. For each closing bracket, require the most r
 
 ## Complexity
 
-- **Time:** O(n)
-- **Space:** O(n)
+- Time: O(n)
+- Space: O(n)
 
 ## Notes and Edge Cases
 

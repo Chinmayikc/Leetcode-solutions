@@ -1,8 +1,8 @@
 # Reverse Linked List
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/reverse-linked-list/
-- **Solution:** [reverse_linked_list.py](reverse_linked_list.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/reverse-linked-list/
+- Solution: [reverse_linked_list.py](reverse_linked_list.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Iterate through the list and redirect each node's next pointer to the previous n
 
 ## Complexity
 
-- **Time:** O(n)
-- **Space:** O(1)
+- Time: O(n)
+- Space: O(1)
 
 ## Notes and Edge Cases
 

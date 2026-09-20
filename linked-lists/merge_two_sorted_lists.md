@@ -1,8 +1,8 @@
 # Merge Two Sorted Lists
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/merge-two-sorted-lists/
-- **Solution:** [merge_two_sorted_lists.py](merge_two_sorted_lists.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/merge-two-sorted-lists/
+- Solution: [merge_two_sorted_lists.py](merge_two_sorted_lists.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Use a sentinel node and repeatedly attach the smaller current node from the two 
 
 ## Complexity
 
-- **Time:** O(n + m)
-- **Space:** O(1) auxiliary space
+- Time: O(n + m)
+- Space: O(1) auxiliary space
 
 ## Notes and Edge Cases
 

@@ -1,8 +1,8 @@
 # Climbing Stairs
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/climbing-stairs/
-- **Solution:** [climbing_stairs.py](climbing_stairs.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/climbing-stairs/
+- Solution: [climbing_stairs.py](climbing_stairs.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Use the Fibonacci recurrence: ways(n) = ways(n - 1) + ways(n - 2). Keep only the
 
 ## Complexity
 
-- **Time:** O(n)
-- **Space:** O(1)
+- Time: O(n)
+- Space: O(1)
 
 ## Notes and Edge Cases
 

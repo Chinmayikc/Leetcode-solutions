@@ -1,8 +1,8 @@
 # Valid Anagram
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/valid-anagram/
-- **Solution:** [valid_anagram.py](valid_anagram.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/valid-anagram/
+- Solution: [valid_anagram.py](valid_anagram.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Count characters in the first string, then decrement the counts while reading th
 
 ## Complexity
 
-- **Time:** O(n)
-- **Space:** O(k), where k is the number of distinct characters.
+- Time: O(n)
+- Space: O(k), where k is the number of distinct characters.
 
 ## Notes and Edge Cases
 

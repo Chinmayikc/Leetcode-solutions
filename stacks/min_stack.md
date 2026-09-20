@@ -1,8 +1,8 @@
 # Min Stack
 
-- **Difficulty:** Medium
-- **LeetCode:** https://leetcode.com/problems/min-stack/
-- **Solution:** [min_stack.py](min_stack.py)
+- Difficulty: Medium
+- LeetCode: https://leetcode.com/problems/min-stack/
+- Solution: [min_stack.py](min_stack.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Keep a second stack containing the minimum value at every depth. Push and pop bo
 
 ## Complexity
 
-- **Time:** O(1) for each operation
-- **Space:** O(n)
+- Time: O(1) for each operation
+- Space: O(n)
 
 ## Notes and Edge Cases
 

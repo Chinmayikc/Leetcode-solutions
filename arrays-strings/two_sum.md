@@ -1,8 +1,8 @@
 # Two Sum
 
-- **Difficulty:** Easy
-- **LeetCode:** https://leetcode.com/problems/two-sum/
-- **Solution:** [two_sum.py](two_sum.py)
+- Difficulty: Easy
+- LeetCode: https://leetcode.com/problems/two-sum/
+- Solution: [two_sum.py](two_sum.py)
 
 ## Approach
 
@@ -10,8 +10,8 @@ Scan the list once while storing each value and its index in a hash map. For eve
 
 ## Complexity
 
-- **Time:** O(n)
-- **Space:** O(n)
+- Time: O(n)
+- Space: O(n)
 
 ## Notes and Edge Cases
 
